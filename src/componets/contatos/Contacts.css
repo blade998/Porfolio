@@ -1,0 +1,39 @@
+.ola {
+    -webkit-text-stroke-width: 1px;
+    color: white;
+    height: 30px;
+}
+footer{
+    display: flex;
+    height: 50vh;
+    -webkit-text-stroke-width: 1px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+.contacts{
+    font-size: 30px;
+    margin-right: 30%;
+    justify-content: space-around;
+}
+.contacts h4{
+    margin-top: 1cm;
+}
+.icons-footer{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 10%;
+    
+}
+@media(max-width:680px){
+    .contacts h4{
+        font-size: 20px;
+       
+    }
+    .contacts{
+        margin-right: 0%;
+    }
+}

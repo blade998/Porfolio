@@ -1,0 +1,57 @@
+.imgs{
+  width: 60% ;
+  height: 55%;
+ 
+}
+.imgs:hover {
+    filter: blur(2px);
+}
+@media(max-width:770px){
+.imgs{
+   width: 30%px;
+   height: 20%px;
+   border-radius: px;
+}
+.port-titles {
+    font-size: 5px ;
+
+}
+.Tilt{
+    font-size: 15px;
+    
+}
+}
+.body-carrosel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    margin-top: 10%;
+    border-top: white 2px solid;
+    border-bottom: white 2px solid;
+    
+ 
+    
+}
+.port-titles {
+    font-size: 20px;
+    color: #F3015D ;
+    
+}
+.corp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Tilt {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+ font-size: 60px;
+ color: #F3015D;
+ 
+
+
+ 
+}
